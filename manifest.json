@@ -6,9 +6,9 @@
 	"start_url": "/xp-paint.html",
 	"display": "standalone",
 	"icons": [{
-		"src": "images/icons/72x72.png",
+		"src": "xp-paint/images/icons/192x192.png",
 		"type": "image/png",
-		"sizes": "264x264"
+		"sizes": "192x192"
 	}]
 
 }
