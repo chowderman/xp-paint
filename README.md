@@ -35,9 +35,9 @@ node build.js
 
 # Credits
 
-Credits to [Isaiah Odhner](https://isaiahodhner.ml/) and contributors for creating the origional JS Paint from which this is forked from.
+Credits to [Isaiah Odhner](https://isaiahodhner.ml/) and contributors for creating the original JS Paint from which this is forked.
 
 
 # Contributing
 
-Since this is a fork of JS Paint origionally, there may be excess code and files within the repo that are no longer used in XP Paint. Any pull requests that can remove or optimize the size of the repo and the size of the single html file output are much appreciated. Hopefully we can get the single html file to below 1 MB in size!
+Since this is a fork of JS Paint originally, there may be excess code and files within the repo that are no longer used in XP Paint. Any pull requests that can remove or optimize the size of the repo and the size of the single html file output are much appreciated. Hopefully we can get the single html file to below 1 MB in size!
