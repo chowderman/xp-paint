@@ -1,0 +1,14 @@
+{
+	"manifest_version": 1,
+	"version": "1.0.0",
+	"short_name": "XP Paint",
+	"name": "XP Paint",
+	"start_url": "/xp-paint.html",
+	"display": "standalone",
+	"icons": [{
+		"src": "xp-paint/images/icons/192x192.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	}]
+
+}

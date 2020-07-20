@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>XP Paint</title>
 
+    <link href="manifest.json" rel="manifest" />
 		<link href="styles/normalize.css" rel="stylesheet" type="text/css">
 		<link href="styles/layout.css" rel="stylesheet" type="text/css">
 		<link href="styles/print.css" rel="stylesheet" type="text/css" media="print">
@@ -23,6 +24,15 @@
 
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 
+    <script>
+      if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js')
+              .then(function(registration) {})
+              .catch(function(err) { 
+                  console.log('ServiceWorker registration failed: ', err)
+              })
+      }
+    </script>
 		<script src="src/theme-consts.js"></script>
 		<script src="src/theme.js"></script>
 	</head>
